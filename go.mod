@@ -4,24 +4,24 @@ go 1.26.0
 
 require (
 	github.com/Skarlso/crd-to-sample-yaml v1.2.2
-	github.com/aquasecurity/trivy v0.56.0
-	github.com/aquasecurity/trivy-db v0.0.0-20240910133327-7e0f4d2ed4c1
+	github.com/aquasecurity/trivy v0.72.0
+	github.com/aquasecurity/trivy-db v0.0.0-20260713131703-4be526083c54
 	github.com/cilium/cilium v1.19.6
-	github.com/go-logr/logr v1.4.3
+	github.com/go-logr/logr v1.4.4
 	github.com/golang-migrate/migrate/v4 v4.19.1
-	github.com/google/go-containerregistry v0.20.6
+	github.com/google/go-containerregistry v0.21.7
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
 	github.com/matryer/runner v0.0.0-20211213160944-9f99df82ff29
 	github.com/samber/slog-multi v1.8.0
 	github.com/stretchr/testify v1.11.1
-	github.com/wailsapp/wails/v3 v3.0.0-alpha2.117
+	github.com/wailsapp/wails/v3 v3.0.0-alpha2.119
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
-	k8s.io/api v0.35.6
-	k8s.io/apiextensions-apiserver v0.35.6
-	k8s.io/apimachinery v0.35.6
-	k8s.io/client-go v0.35.6
+	k8s.io/api v0.36.2
+	k8s.io/apiextensions-apiserver v0.36.2
+	k8s.io/apimachinery v0.36.2
+	k8s.io/client-go v0.36.2
 	k8s.io/klog/v2 v2.140.0
-	k8s.io/metrics v0.35.6
+	k8s.io/metrics v0.36.2
 	modernc.org/sqlite v1.53.0
 )
 
@@ -448,7 +448,7 @@ require (
 )
 
 replace (
-	github.com/containerd/errdefs => github.com/containerd/errdefs v0.1.0
-	github.com/docker/cli => github.com/docker/cli v25.0.1+incompatible
-	github.com/docker/docker => github.com/docker/docker v25.0.1+incompatible
+	github.com/containerd/errdefs => github.com/containerd/errdefs v0.3.0
+	github.com/docker/cli => github.com/docker/cli v25.0.7+incompatible
+	github.com/docker/docker => github.com/docker/docker v25.0.16+incompatible
 )
